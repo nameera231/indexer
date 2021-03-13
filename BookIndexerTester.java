@@ -8,8 +8,7 @@ import java.util.TreeSet;
 public class BookIndexerTester {
 	
     /**
-     * TODO: complete the main method for building
-     * and displaying an index.
+     * 
 
      * 1. Create an object of the BookIndexer class.
      * 2. Call the compileIndex method. Pass to this
