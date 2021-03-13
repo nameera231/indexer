@@ -11,7 +11,7 @@ import java.util.*;
  */
 public class BookIndexer {
 	/**
-	 * TODO: declare a field. This field 
+	 * This field 
 	 * is an object of a built-in class. 
 	 * It maps heading/sub-heading pairs 
 	 * to page numbers. 
@@ -33,7 +33,7 @@ public class BookIndexer {
 	}
 	
 	/**
-	 * TODO: complete a method that reads through notes
+	 * a method that reads through notes
 	 * and builds an index
 	 * @param sc a Scanner object for reading from a file 
 	 * containing notes.
@@ -95,7 +95,7 @@ public class BookIndexer {
 	}
 	
 	/**
-	 * TODO: complete a method that displays an index
+	 * a method that displays an index
 	 * to the standard output as shown in the description
 	 * of the assignment.
 	 */	
