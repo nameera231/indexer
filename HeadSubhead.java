@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 /**
- * TODO: complete the declaration of a generic class that 
+ *  a generic class that 
  * represents the heading and sub-heading of a book index.
  * Any two objects of this class need to be Comparable.
  * Note that comparing two objects of this class requires 
@@ -10,14 +10,14 @@ import java.util.*;
 public class HeadSubhead<HeadType extends Comparable<HeadType>, SubheadType extends Comparable<SubheadType>> implements Comparable<HeadSubhead<HeadType,SubheadType>>{
 
 	/**
-	 * TODO: declare generic fields
+	 * 
 	 */
 	HeadType h;
 	SubheadType s;
 	
 	
 	/**
-	 * TODO: complete a method that sets fields.
+	 * a method that sets fields.
 	 * @param head heading of an entry
 	 * @param subhead sub-heading of an entry
 	 */
@@ -27,7 +27,7 @@ public class HeadSubhead<HeadType extends Comparable<HeadType>, SubheadType exte
      }
 	
 	/**
-	 * TODO: complete a method that returns
+	 * a method that returns
 	 * the heading.
 	 * @return heading
 	 */
@@ -37,7 +37,7 @@ public class HeadSubhead<HeadType extends Comparable<HeadType>, SubheadType exte
      }
 	
 	/**
-	 * TODO: complete a method that returns
+	 * a method that returns
 	 * the sub-heading.
 	 * @return sub-heading
 	 */
@@ -47,7 +47,7 @@ public class HeadSubhead<HeadType extends Comparable<HeadType>, SubheadType exte
      
 	
 	/**
-	 * TODO: define a method that compares two 
+	 *  a method that compares two 
 	 * objects of the HeadSubhead class.
 	 * This method overrides the compareTo method.
 	 * @param an instance of the HeadSubhead class
